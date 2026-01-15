@@ -1,0 +1,12 @@
+authority:
+  agent:
+    role: "carrier"
+    may_decide: true
+    may_repeat: false
+
+execution_envelope:
+  receives:
+    - decision_token
+  forbidden:
+    - context_history
+    - justification
