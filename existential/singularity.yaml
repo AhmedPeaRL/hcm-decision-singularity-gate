@@ -1,0 +1,14 @@
+decision:
+  nature: "singular"
+  multiplicity: forbidden
+
+scope:
+  applies_to:
+    - economic_action
+    - cognitive_action
+    - representational_action
+    - unknown_action
+
+after_decision:
+  collapse_gate: true
+  reopen_condition: "external_reality_shift"
