@@ -1,0 +1,13 @@
+decision:
+  allowed_per_cycle: 1
+
+cycle_definition:
+  based_on: "field_state"
+  not_based_on:
+    - time
+    - execution_result
+    - user_interaction
+
+memory:
+  decision_logged: false
+  decision_replayed: false
